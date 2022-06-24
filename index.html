@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+</style>
+</head>
+<body>
+    
+<main>
+    <h1> Today's Weather </h1>
+    <div id="demo1" style="font-size: 20px;"></div>
+</main>
+
+<header>
+
+    <form action="">
+        <input type="text" name="" id="city">
+        <span id="loadImg_btn">
+            <img id="loadImg_btn" src="search-heart.svg" alt="">
+        </span>
+
+    </form>
+</header>
+
+
+
+<section>
+    <article>
+
+    </article>
+</section>
+
+
+
+
+
+    <script src="app.js"></script>
+    <script>
+        const s = setInterval(f2 , 1000)
+    function f2(){
+        let d = new Date()
+        const demo = document.getElementById("demo1")
+        demo.innerHTML = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+    }
+    </script>
+</body>
+</html>
